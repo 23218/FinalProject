@@ -7,7 +7,7 @@
   
   body {
     background-color: rgb(151, 8, 8);
-    background-image: url(https://images2.alphacoders.com/104/thumb-1920-1043005.jpg);
+    background-image: url(https://images7.alphacoders.com/411/411820.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -15,6 +15,7 @@
     place-content: center;
     min-height: 100vh;
     font-size: 120%;
+    transition: 4s;
   }
 
   #encabezado {
@@ -24,10 +25,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgba(175, 175, 175, 0.904);
+    background: rgba(177, 177, 177, 0.815);
     border-radius: 10px;
     margin: 50px 10px 10px 10px;
     padding: 10px;
+    font-weight: bold;
+    transition: 2s;
   }
   #sec{
     width: 100%;
@@ -36,21 +39,23 @@
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 10px;
+    font-size: x-large;
   }
   img {
     height: 150px;
     margin-top: 30px;
     border-radius: 10px;
+    margin-right: 40px;
   }
   
   .opcion {
     text-align: center;
     width: 60vw;
-    background: rgba(175, 175, 175, 0.904);
-    
+    background: rgba(223, 223, 223, 0.678);
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
+    font-weight: 500;
     cursor: pointer;
   }
   
@@ -60,8 +65,12 @@
   }
 
   @media (max-width: 650px) {
+    *{
+      font-size: 15px;
+    }
     #encabezado {
       width: 80vw;
+      text-align: center;
     }
     .opcion {
       width: 80vw;

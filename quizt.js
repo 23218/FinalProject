@@ -46,8 +46,8 @@ async function seleccionarOpcion(index){
     IndexPregunta++;
     if(IndexPregunta >= preguntas.length){
         await Swal.fire({
-            title: "Juego Terminado",
-            text: `Tu puntaje es: ${puntaje} / ${preguntas.length}`,
+            title: "Juego Terminado," + ` Tu puntaje fue: ${puntaje} / ${preguntas.length}`,
+            text:"Ahora sabes un poco más hacerca del ODS 4 y como se encuentra la educación en méxico, vuelve a intentarlo y mejora tu puntuación", 
             confirmButtonText: "Aceptar",
             width: '900px'
         });
